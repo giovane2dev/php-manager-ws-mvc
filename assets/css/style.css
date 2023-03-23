@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/06/2019, 12:27:12
+    Author     : Giovane Pessoa
+*/
+
+.form-control-lg {
+    font-size: 1.20rem !important;
+}
+
+header.masthead {
+    padding-top: calc(4rem + 72px) !important;
+    padding-bottom: 2rem !important;
+}
+
+.btn-edit {
+    font-size: 2em;
+    margin-top: 1.5px;
+}
+
+.btn-remove {
+    font-size: 2em;
+}
+
+.btn-tooltip {
+    font-size: 2em;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.drop {
+    width: 100%;
+    height: 240px;
+    border: 3px dashed #ced4da;
+    border-radius: 15px;
+    background: transparent;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    position: relative;   
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.drop .cont {
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon {
+    position: absolute;
+    margin-top: 0px;
+    height: 40px;
+    width: 40px;
+}
+
+.badge {
+    width: 50px;
+    font-size: .8em;
+}
+
+.icon i {
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+}
+
+.drop .cont i {
+    font-size: 6em;
+    color: #ffffff;
+    position: relative;
+}
+
+.drop input {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: transparent;
+    opacity: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.modal-body .fa {
+    font-size: 1.5em;
+    width: 30px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.modal-body .fa:hover {
+    color: #18bc9c;
+}
+
+input[type=search] {
+    border: 1px solid #cccccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type=search]:focus {
+    outline: none;
+}
+
+select[name=datatable_length] {
+    border: 1px solid #cccccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.dataTables_paginate a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.paginate_button {
+    margin-left: 5px;
+    margin-right: 5px;
+}
